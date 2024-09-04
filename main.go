@@ -25,5 +25,7 @@ func getInitials(n string) (string, string) {
 func main() {
 	//test the function
 	fn, sn := getInitials("Mwebe Raymond")
+	fn2, sn2 := getInitials("Ronald")
 	fmt.Println(fn, sn)
+	fmt.Println(fn2, sn2)
 }
