@@ -6,7 +6,6 @@ import (
 )
 
 // function to take in a name and return initials
-
 func getInitials(n string) (string, string) {
 	s := strings.ToUpper(n)
 	names := strings.Split(s, " ")
